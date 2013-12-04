@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="SBT: scala:2.10.3" />
+        <option name="compilerOptions" value="-optimise -deprecation -unchecked" />
+        <option name="deprecationWarnings" value="true" />
+        <option name="fsc" value="true" />
+        <option name="optimiseBytecode" value="true" />
+        <option name="uncheckedWarnings" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../common/target/scala-2.10/classes" />
+    <output-test url="file://$MODULE_DIR$/../common/target/scala-2.10/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../common">
+      <sourceFolder url="file://$MODULE_DIR$/../common/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../common/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../common/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../common/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../common/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../common/src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../common/scr/main/scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../common/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.2.1" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.0.2" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-remote_2.10:2.2.1" level="project" />
+    <orderEntry type="library" name="SBT: io.netty:netty:3.6.6.Final" level="project" />
+    <orderEntry type="library" name="SBT: com.google.protobuf:protobuf-java:2.4.1" level="project" />
+    <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-math3:3.1.1" level="project" />
+    <orderEntry type="library" name="SBT: org.projectlombok:lombok:0.11.4" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.2.2" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.2.2" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.2.2" level="project" />
+    <orderEntry type="library" name="SBT: com.wagnerandade:coollection:0.2.0" level="project" />
+    <orderEntry type="library" name="SBT: com.google.guava:guava:r05" level="project" />
+    <orderEntry type="library" name="SBT: redis.clients:jedis:2.1.0" level="project" />
+    <orderEntry type="library" name="SBT: org.javatuples:javatuples:1.1" level="project" />
+    <orderEntry type="library" name="SBT: net.databinder.dispatch:dispatch-core_2.10:0.11.0" level="project" />
+    <orderEntry type="library" name="SBT: com.ning:async-http-client:1.7.16" level="project" />
+    <orderEntry type="library" name="SBT: org.json4s:json4s-native_2.10:3.2.5" level="project" />
+    <orderEntry type="library" name="SBT: org.json4s:json4s-core_2.10:3.2.5" level="project" />
+    <orderEntry type="library" name="SBT: org.json4s:json4s-ast_2.10:3.2.5" level="project" />
+    <orderEntry type="library" name="SBT: com.thoughtworks.paranamer:paranamer:2.5.6" level="project" />
+    <orderEntry type="library" name="SBT: org.mockito:mockito-all:1.9.0" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.10.0" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.10.0" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.10.0" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.2.5" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.2.4" level="project" />
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" name="SBT: org.scalaj:scalaj-http_2.10:0.3.10" level="project" />
+    <orderEntry type="library" name="SBT: net.debasishg:redisclient_2.10:2.11" level="project" />
+    <orderEntry type="library" name="SBT: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-actors:2.10.0" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" name="SBT: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="SBT: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="SBT: org.json4s:json4s-jackson_2.10:3.2.5" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-kernel_2.10:2.2.1" level="project" />
+    <orderEntry type="library" name="SBT: com.github.mpeltonen:sbt-idea:1.5.1" level="project" />
+    <orderEntry type="library" name="SBT: commons-io:commons-io:2.0.1" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.sbteclipse:sbteclipse-plugin:2.4.0" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.sbteclipse:sbteclipse-core:2.4.0" level="project" />
+    <orderEntry type="library" name="SBT: org.scalaz:scalaz-core_2.10:7.0.2" level="project" />
+    <orderEntry type="library" name="SBT: org.scalaz:scalaz-effect_2.10:7.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.10:1.9.1:test" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: com.novocode:junit-interface:0.10:test" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: junit:junit-dep:4.10:test" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.hamcrest:hamcrest-core:1.1:test" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-tools.testing:test-interface:0.5:test" level="project" />
+  </component>
+</module>
+

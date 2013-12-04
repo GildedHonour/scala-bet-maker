@@ -1,0 +1,5 @@
+gen-idea
+compile
+reload
+gen-idea
+exit
