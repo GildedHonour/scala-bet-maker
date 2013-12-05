@@ -3,3 +3,12 @@ compile
 reload
 gen-idea
 exit
+gen-idea
+compile
+exit
+compile
+gen-idea
+exit
+compile
+reload
+compile

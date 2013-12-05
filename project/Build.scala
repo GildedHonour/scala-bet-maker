@@ -7,10 +7,10 @@ object BetZillaBuild extends Build {
   private def createProject(id: String) = Project(id, file(id), settings = defaultAdditionalSettings)
 
   lazy val root = Project("betzilla", file("."), settings = defaultSettings,
-    aggregate = Seq(betcore, test, betdaq, betfair)
+    aggregate = Seq(betcore, test, betdaq, betfair, common)
   )
 
-  lazy val common = createProject("common")
+  lazy val common = createProject("common") dependsOn betcore
   lazy val betdaq = createProject("betdaq") dependsOn common
   lazy val betcore = createProject("betcore")
   lazy val test = createProject("test")

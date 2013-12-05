@@ -36,11 +36,11 @@
     <orderEntry type="library" name="SBT: org.scalaz:scalaz-core_2.10:7.0.2" level="project" />
     <orderEntry type="library" name="SBT: org.scalaz:scalaz-effect_2.10:7.0.2" level="project" />
     <orderEntry type="library" name="betfair-ws-1.5.jar" level="project" />
-    <orderEntry type="module" module-name="betfair" exported="" />
-    <orderEntry type="module" module-name="betdaq" exported="" />
-    <orderEntry type="module" module-name="common" exported="" />
     <orderEntry type="module" module-name="betcore" exported="" />
     <orderEntry type="module" module-name="test" exported="" />
+    <orderEntry type="module" module-name="betdaq" exported="" />
+    <orderEntry type="module" module-name="betfair" exported="" />
+    <orderEntry type="module" module-name="common" exported="" />
   </component>
 </module>
 

@@ -1,16 +1,17 @@
 package io.bet.betzilla.common
 
 import akka.actor.Actor
+import com.betmonster.betcore._
 
-/**
- * Created with IntelliJ IDEA.
- * User: alex
- * Date: 12/4/13
- * Time: 11:32 PM
- * To change this template use File | Settings | File Templates.
- */
-class MarketGroupSupervisor extends Actor {
+class MarketGroupSupervisor(internalId: Int) extends Actor {
 
+  lazy val marketGroup: MarketGroup = {
+
+  }
+
+  def receive = {
+    case SessionMonitor.Result(sessionId) =>
+  }
 }
 
 object MarketGroupSupervisor {
