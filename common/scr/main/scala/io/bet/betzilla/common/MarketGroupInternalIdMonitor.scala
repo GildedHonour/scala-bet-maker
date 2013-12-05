@@ -1,7 +1,6 @@
 package io.bet.betzilla.common
 
 import akka.actor.Actor
-import akka.pattern.ask
 
 class MarketGroupInternalIdMonitor extends Actor {
   import MarketGroupInternalIdMonitor._
@@ -10,8 +9,14 @@ class MarketGroupInternalIdMonitor extends Actor {
     case Get =>
       //get internal ids from bet.io
       //return the result
-      val internlaIdList = ???
-      sender ? Result(internlaIdList) // tell or ask pattern
+      val internlaIdList = getInternalIdList()
+      sender ! Result(internlaIdList) // tell or ask pattern?
+      context stop self
+  }
+
+  private def getInternalIdList() = {
+    //todo
+    List(1, 2, 3)
   }
 }
 

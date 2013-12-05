@@ -4,7 +4,7 @@
     <list default="true" id="b8b12195-c278-486e-bcb4-79fd38ecfcca" name="Default" comment="" />
     <ignored path="betzilla.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Build.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386172743179" ignored="false" />
+    <file path="/Build.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386251530167" ignored="false" />
     <file path="$PROJECT_DIR$/betcore/target/resolution-cache/reports/bet-monster-betcore_2.10-scala-tool.xml" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386172174405" ignored="false" />
     <file path="$PROJECT_DIR$/betcore/target/resolution-cache/reports/bet-monster-betcore_2.10-docs.xml" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386172174406" ignored="false" />
     <file path="$PROJECT_DIR$/betcore/target/resolution-cache/reports/bet-monster-betcore_2.10-test.xml" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386172174406" ignored="false" />
@@ -13,10 +13,16 @@
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386175562564" ignored="false" />
     <file path="/ExchangeSupervisor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386176514240" ignored="false" />
     <file path="/Scheduler.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386174863508" ignored="false" />
-    <file path="/SessionMonitor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386175413765" ignored="false" />
+    <file path="/SessionMonitor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386240760995" ignored="false" />
     <file path="/MarketGroupSupervisor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386206346960" ignored="false" />
     <file path="/SBT" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386205908233" ignored="false" />
-    <file path="/MarketGroupInternalIdMonitor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386206647172" ignored="false" />
+    <file path="/MarketGroupInternalIdMonitor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386207167169" ignored="false" />
+    <file path="$PROJECT_DIR$/../akka_test1/project/Build.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386220578528" ignored="false" />
+    <file path="$PROJECT_DIR$/../akka_test1/main/src/main/scala/Counter.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386220684648" ignored="false" />
+    <file path="$PROJECT_DIR$/../akka_test1/main/src/main/scala/MainActor.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386220726325" ignored="false" />
+    <file path="/MarketGroupPricer.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386250242547" ignored="false" />
+    <file path="/BetAction.java" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386250395104" ignored="false" />
+    <file path="/Main.scala" changelist="b8b12195-c278-486e-bcb4-79fd38ecfcca" time="1386251638889" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,96 +83,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExchangeSupervisor.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/ExchangeSupervisor.scala">
+      <file leaf-file-name="MarketGroupPricer.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupPricer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scheduler.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betdaq/src/main/scala/io/bet/betzilla/betdaq/Scheduler.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarketGroupSupervisor.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupSupervisor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="58" selection-start="134" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="14" column="63" selection-start="248" selection-end="248" vertical-scroll-proportion="0.33734939">
               <folding>
                 <element signature="e#32#55#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarketGroupInternalIdMonitor.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupInternalIdMonitor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="60" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2719101">
-              <folding>
-                <element signature="e#32#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorRef.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.1-sources.jar!/akka/actor/ActorRef.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="6" selection-start="6461" selection-end="6461" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betcore/src/main/java/com/betmonster/betcore/FileUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExchangeSupervisor.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betfair/src/main/scala/io/bet/betzilla/betfair/ExchangeSupervisor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scheduler.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betfair/src/main/scala/io/bet/betzilla/betfair/Scheduler.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scheduler.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/Scheduler.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionMonitor.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/SessionMonitor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -181,16 +104,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/Scheduler.scala" />
-        <option value="$PROJECT_DIR$/betdaq/src/main/scala/io/bet/betzilla/betdaq/ExchangeSupervisor.scala" />
-        <option value="$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/SessionMonitor.scala" />
-        <option value="$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/ExchangeSupervisor.scala" />
-        <option value="$PROJECT_DIR$/betfair/src/main/scala/io/bet/betzilla/betfair/Scheduler.scala" />
-        <option value="$PROJECT_DIR$/betdaq/src/main/scala/io/bet/betzilla/betdaq/Scheduler.scala" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Setting.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Runner.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/BetAction.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/BetLog.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/BetSelector.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Direction.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Enviroment.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/FileUtils.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Market.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/MarketType.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/NonRunner.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/NumberUtils.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/TimeUtils.java" />
+        <option value="$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Tolerance.java" />
         <option value="$PROJECT_DIR$/project/Build.scala" />
-        <option value="$PROJECT_DIR$/betcore/src/main/java/com/betmonster/betcore/MarketGroup.java" />
-        <option value="$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupSupervisor.scala" />
-        <option value="$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupInternalIdMonitor.scala" />
+        <option value="$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/Main.scala" />
       </list>
     </option>
   </component>
@@ -211,7 +140,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -226,6 +155,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -269,27 +199,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SessionMonitor.scala" />
+              <option name="myItemId" value="Build.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,75 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MarketGroupSupervisor.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betzilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betzilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MarketGroupInternalIdMonitor.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betzilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betzilla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExchangeSupervisor.scala" />
+              <option name="myItemId" value="MarketGroupPricer.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="betdaq" />
+              <option name="myItemId" value="betfair" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -481,7 +327,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="betdaq" />
+              <option name="myItemId" value="betfair" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betzilla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betzilla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betfair" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betfair" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,20 +414,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betcore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -763,117 +646,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.2/org.scala-sbt/sbt/0.13.0/main-settings-0.13.0.jar!/sbt/Scoped.class">
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="28" selection-start="3796" selection-end="3796" vertical-scroll-proportion="0.49371427" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betdaq/src/main/scala/io/bet/betzilla/betdaq/ExchangeSupervisor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/Predef.scala">
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="6" selection-start="12314" selection-end="12314" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betfair/src/main/scala/io/bet/betzilla/betfair/ExchangeSupervisor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betfair/src/main/scala/io/bet/betzilla/betfair/Scheduler.scala">
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Market.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+        <state line="65" column="4" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1106#1114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/MarketType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betdaq/src/main/scala/io/bet/betzilla/betdaq/Scheduler.scala">
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/NonRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="17" column="5" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="0" selection-start="2224" selection-end="2224" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/TimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Tolerance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/io/bet/betzilla/betcore/Enviroment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.85542166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.2/org.scala-sbt/sbt/0.13.0/main-0.13.0.jar!/sbt/Keys.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="6" selection-start="6466" selection-end="6466" vertical-scroll-proportion="0.34285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="4" selection-start="2728" selection-end="2974" vertical-scroll-proportion="0.8072289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/Build.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="73" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/Scheduler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/SessionMonitor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/ExchangeSupervisor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/com/betmonster/betcore/MarketGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="48" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
+        <state line="13" column="93" selection-start="542" selection-end="542" vertical-scroll-proportion="0.28915662">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1218#1229#0" expanded="true" />
-            <element signature="e#1317#1328#0" expanded="true" />
-            <element signature="e#2149#2160#0" expanded="true" />
+            <element signature="e#1374#2843#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/com/betmonster/betcore/FileUtils.java">
+    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+        <state line="7" column="41" selection-start="89" selection-end="89" vertical-scroll-proportion="0.16867469">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betcore/src/main/java/com/betmonster/betcore/Market.java">
+    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupPricer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="428" selection-end="428" vertical-scroll-proportion="0.013452915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupSupervisor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="58" selection-start="134" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#32#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.1-sources.jar!/akka/actor/ActorRef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="6" selection-start="6461" selection-end="6461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scr/main/scala/io/bet/betzilla/common/MarketGroupInternalIdMonitor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2719101">
+        <state line="14" column="63" selection-start="248" selection-end="248" vertical-scroll-proportion="0.33734939">
           <folding>
             <element signature="e#32#55#0" expanded="true" />
           </folding>

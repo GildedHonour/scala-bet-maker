@@ -1,25 +1,24 @@
-package com.betmonster.betcore;
+package io.bet.betzilla.betcore;
 
 import java.io.*;
 
-public class FileUtils
-{
+public class FileUtils {
     static public String readFile(String fileName) {
         File file = new File(fileName);
-         
+
         char[] buffer = null;
-         
+
         try {
             BufferedReader bufferedReader = new BufferedReader(
                     new FileReader(file));
-     
-            buffer = new char[(int)file.length()];
-     
+
+            buffer = new char[(int) file.length()];
+
             int i = 0;
             int c = bufferedReader.read();
-     
+
             while (c != -1) {
-                buffer[i++] = (char)c;
+                buffer[i++] = (char) c;
                 c = bufferedReader.read();
             }
         } catch (FileNotFoundException e) {
@@ -27,35 +26,21 @@ public class FileUtils
         } catch (IOException e) {
             // log.error(e.getMessage());
         }
-     
+
         return new String(buffer);
     }
 
-    static public void writeFile(String fileName,String data) {
-       try {
+    static public void writeFile(String fileName, String data) {
+        try {
             BufferedWriter out = new BufferedWriter(new FileWriter(fileName));
             out.write(data);
             out.close();
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             // System.out.println("Exception ");       
         }
     }
 
-    // static private void writeText(String fileName,String text)
-    // {
-    //     try {
-    //         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(fileName, true)));
-    //         out.println(text);
-    //         out.close();
-    //     } catch (IOException e) {
-    //         //oh noes!
-    //     }
-    // }  
-
-    static public void writeText(String filename,String line,boolean append)
-    {
+    static public void writeText(String filename, String line, boolean append) {
         try {
             // SimpleLogger.info(filename);
             // SimpleLogger.info(line);
@@ -66,6 +51,6 @@ public class FileUtils
             //oh noes!
             e.printStackTrace();
         }
-    }         
+    }
 
 }

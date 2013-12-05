@@ -12,3 +12,6 @@ exit
 compile
 reload
 compile
+reload
+compile
+exit

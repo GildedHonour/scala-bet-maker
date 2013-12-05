@@ -34,7 +34,8 @@ object BetZillaBuild extends Build {
   lazy val defaultSettings = Defaults.defaultSettings ++ buildSettings ++ Seq(
     scalacOptions ++= Seq("-encoding", "UTF-8", "-optimise", "-deprecation", "-unchecked"),
     javacOptions  ++= Seq("-Xlint:unchecked", "-Xlint:deprecation"),
-    parallelExecution in Test := false
+    parallelExecution in Test := false,
+    compileOrder := CompileOrder.JavaThenScala
   )
 }
 

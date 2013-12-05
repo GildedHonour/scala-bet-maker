@@ -1,4 +1,4 @@
-package com.betmonster.betcore;
+package io.bet.betzilla.betcore;
 
 public class BetSource
 {
