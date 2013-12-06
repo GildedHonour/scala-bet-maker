@@ -11,7 +11,6 @@ class BetSelector {
     private int selectionId;
     private String direction;
     private String betSource;
-
     private String matched;
     private String marketType;
 

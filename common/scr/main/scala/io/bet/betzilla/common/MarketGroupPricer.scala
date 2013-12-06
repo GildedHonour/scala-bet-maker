@@ -18,7 +18,7 @@ abstract class MarketGroupPricer[T <: SessionMonitor](marketGroupId: Int) extend
       context stop sessionA
       get(sessionId).onComplete {
         case Success(mg: MarketGroup) => sender ! mg
-        case Failure(e) => // todo - what to do with e: log, send back, etc?
+        case Failure(e) => // todo - what to do with e: log, send back, retry, etc?
       }
   }
 

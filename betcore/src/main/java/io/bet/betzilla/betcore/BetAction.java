@@ -48,9 +48,7 @@ class BetAction {
             roundedAmount = NumberUtils.roundTo2DecimalPlaces(amount);
 
         String result = actionMode.toString() + "," + message + "," + betId + "," + roundedOdds + "," + roundedAmount + "," + betSource + "," + marketType + "," + direction + "," + selectionId + "," + referenceBetId + "," + marketId;
-
         result = result.replace("null", "");
-
         return result;
     }
 

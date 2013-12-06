@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/betcore.iml" filepath="$PROJECT_DIR$/.idea_modules/betcore.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/betdaq.iml" filepath="$PROJECT_DIR$/.idea_modules/betdaq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/betfair.iml" filepath="$PROJECT_DIR$/.idea_modules/betfair.iml" />
