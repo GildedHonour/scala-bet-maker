@@ -1,7 +1,7 @@
 package io.bet.betzilla.common
 
 import akka.actor.Actor
-import com.betmonster.betcore._
+import io.bet.betzilla.betcore.MarketGroup
 
 class MarketGroupSupervisor(internalId: Int) extends Actor {
 
@@ -9,11 +9,12 @@ class MarketGroupSupervisor(internalId: Int) extends Actor {
 
   }
 
+
   def receive = {
-    case SessionMonitor.Result(sessionId) =>
+
   }
 }
 
 object MarketGroupSupervisor {
-
+  case class GetLastPrices(marketGroupId: Int)
 }

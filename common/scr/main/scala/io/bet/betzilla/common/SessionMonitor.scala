@@ -1,18 +1,23 @@
 package io.bet.betzilla.common
 
 import akka.actor.Actor
+import scala.concurrent._
+import scala.concurrent.ExecutionContext.Implicits._
+import scala.util._
 
 abstract class SessionMonitor extends Actor {
   import SessionMonitor._
 
+  protected val url: String
+  protected def getSessionId: Future[String]
+
   def receive = {
     case Get =>
-      //get session id from the server and send it back
-      val sessionId = getSessionId
-      sender ! Result(sessionId)
+      getSessionId onComplete {
+        case Success(sId) => sender ! Result(sId)
+        case Failure(e) => // todo: retry? log to a file? send back the error?
+      }
   }
-
-  protected def getSessionId: String // Future[String]? blocking { } ? ask the forum
 }
 
 object SessionMonitor {
