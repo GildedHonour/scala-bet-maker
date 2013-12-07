@@ -15,3 +15,14 @@ compile
 reload
 compile
 exit
+update
+gen-idea
+compile
+console
+sbt
+exit
+console
+compile
+reload
+gen-idea
+compile

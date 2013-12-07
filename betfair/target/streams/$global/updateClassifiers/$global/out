@@ -6,7 +6,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26d84fbe[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28202bd3[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -16,17 +16,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->betzilla#common_2.10;1.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving betzilla#common_2.10;1.0-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fde34d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f020e8e[0m
 [0m[[0mdebug[0m] [0mdon't use cache for betzilla#common_2.10;1.0-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0m	found betzilla#common_2.10;1.0-SNAPSHOT in inter-project[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->betzilla#betcore_2.10;1.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving betzilla#betcore_2.10;1.0-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4701d2d3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23a4b36c[0m
 [0m[[0mdebug[0m] [0mdon't use cache for betzilla#betcore_2.10;1.0-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0m	found betzilla#betcore_2.10;1.0-SNAPSHOT in inter-project[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@383458bc[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fab9edf[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.1[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2.1 in sbt-chain[0m
@@ -35,43 +35,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a9fb0f3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1945ff9c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.2[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f80641c[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.1.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.commons#commons-math3;3.1.1[0m
-[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math3;3.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.projectlombok#lombok;0.11.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@406f0b98[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d9bc818[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.projectlombok#lombok;0.11.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.projectlombok#lombok;0.11.4[0m
 [0m[[0mdebug[0m] [0m	found org.projectlombok#lombok;0.11.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.google.guava#guava;r05 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d3df72c[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;r05[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;r05[0m
-[0m[[0mdebug[0m] [0m	found com.google.guava#guava;r05 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.javatuples#javatuples;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63705877[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31884b7c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.javatuples#javatuples;1.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.javatuples#javatuples;1.1[0m
 [0m[[0mdebug[0m] [0m	found org.javatuples#javatuples;1.1 in sbt-chain[0m
@@ -80,7 +62,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.databinder.dispatch#dispatch-core_2.10;0.11.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d266794[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ce13334[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder.dispatch#dispatch-core_2.10;0.11.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.databinder.dispatch#dispatch-core_2.10;0.11.0[0m
 [0m[[0mdebug[0m] [0m	found net.databinder.dispatch#dispatch-core_2.10;0.11.0 in sbt-chain[0m
@@ -89,7 +71,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.ning#async-http-client;1.7.16 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.ning#async-http-client;1.7.16 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36d40ea1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33a91cbe[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.ning#async-http-client;1.7.16[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.ning#async-http-client;1.7.16[0m
 [0m[[0mdebug[0m] [0m	found com.ning#async-http-client;1.7.16 in sbt-chain[0m
@@ -98,7 +80,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.ning#async-http-client;1.7.16 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->io.netty#netty;3.6.3.Final [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty;3.6.3.Final ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@664107c9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50fb2d29[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.6.3.Final[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.6.3.Final[0m
 [0m[[0mdebug[0m] [0m	found io.netty#netty;3.6.3.Final in sbt-chain[0m
@@ -107,7 +89,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->io.netty#netty;3.6.3.Final [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62b3e70c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29f4f5d1[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.6.2[0m
 [0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.2 in sbt-chain[0m
@@ -116,7 +98,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.10;3.2.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a01f2e9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25097dec[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json4s#json4s-native_2.10;3.2.5[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.json4s#json4s-native_2.10;3.2.5[0m
 [0m[[0mdebug[0m] [0m	found org.json4s#json4s-native_2.10;3.2.5 in sbt-chain[0m
@@ -125,7 +107,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aaa1f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57c70710[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.5[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.json4s#json4s-core_2.10;3.2.5[0m
 [0m[[0mdebug[0m] [0m	found org.json4s#json4s-core_2.10;3.2.5 in sbt-chain[0m
@@ -134,7 +116,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16dbac10[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5333462f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.5[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.json4s#json4s-ast_2.10;3.2.5[0m
 [0m[[0mdebug[0m] [0m	found org.json4s#json4s-ast_2.10;3.2.5 in sbt-chain[0m
@@ -143,7 +125,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.5.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.5.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12cbfd44[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@516f8484[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.5.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.5.6[0m
 [0m[[0mdebug[0m] [0m	found com.thoughtworks.paranamer#paranamer;2.5.6 in sbt-chain[0m
@@ -152,7 +134,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.5.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.mockito#mockito-all;1.9.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mockito#mockito-all;1.9.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b338929[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22218f5c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mockito#mockito-all;1.9.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.mockito#mockito-all;1.9.0[0m
 [0m[[0mdebug[0m] [0m	found org.mockito#mockito-all;1.9.0 in sbt-chain[0m
@@ -161,7 +143,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.mockito#mockito-all;1.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59ef20ac[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b9dcdb6[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scalap;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.0 in sbt-chain[0m
@@ -170,7 +152,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78f0a824[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68742487[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain[0m
@@ -179,7 +161,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a2e13eb[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7633d3ee[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
@@ -188,7 +170,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.2.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.2.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@270aa5a9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62ae8db7[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.2.5[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpclient;4.2.5[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.2.5 in sbt-chain[0m
@@ -197,7 +179,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.2.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.2.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e0531ff[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f01989c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.2.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpcore;4.2.4[0m
 [0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.2.4 in sbt-chain[0m
@@ -206,7 +188,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70b634e4[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f9635bb[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in sbt-chain[0m
@@ -215,7 +197,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->commons-codec#commons-codec;1.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c6242bc[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@544edf6[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.6[0m
 [0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.6 in sbt-chain[0m
@@ -224,7 +206,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->commons-codec#commons-codec;1.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaj#scalaj-http_2.10;0.3.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;0.3.10 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50d58727[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10d0c411[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.10;0.3.10[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaj#scalaj-http_2.10;0.3.10[0m
 [0m[[0mdebug[0m] [0m	found org.scalaj#scalaj-http_2.10;0.3.10 in sbt-chain[0m
@@ -233,7 +215,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaj#scalaj-http_2.10;0.3.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.5.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76a0923a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1831a5b8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.5.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.github.mpeltonen#sbt-idea;1.5.1[0m
 [0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.5.1 in sbt-chain[0m
@@ -243,7 +225,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20822e10[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@208279af[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.0.1 in sbt-chain[0m
@@ -252,7 +234,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17cc3847[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57af6742[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.2 in sbt-chain[0m
@@ -261,7 +243,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e572fe1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12139505[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.2 in sbt-chain[0m
@@ -285,18 +267,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->compile][0m
@@ -399,18 +373,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->compile][0m
@@ -517,18 +483,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->compile][0m
@@ -631,18 +589,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->compile][0m
@@ -745,18 +695,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test->compile][0m
@@ -847,7 +789,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.2 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@746fcac5[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a7cfdba[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.10;1.9.1[0m
 [0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;1.9.1 in sbt-chain[0m
@@ -856,7 +798,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.1 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-actors;2.10.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75939004[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@280e3eab[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-actors;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in sbt-chain[0m
@@ -865,7 +807,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-actors;2.10.0 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.novocode#junit-interface;0.10 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38b9f35c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22c277b1[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.novocode#junit-interface;0.10[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.novocode#junit-interface;0.10[0m
 [0m[[0mdebug[0m] [0m	found com.novocode#junit-interface;0.10 in sbt-chain[0m
@@ -874,7 +816,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->junit#junit-dep;4.10 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving junit#junit-dep;4.10 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b354a8c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@777e84c2[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit-dep;4.10[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: junit#junit-dep;4.10[0m
 [0m[[0mdebug[0m] [0m	found junit#junit-dep;4.10 in sbt-chain[0m
@@ -883,7 +825,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->junit#junit-dep;4.10 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a235009[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ce6448[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.hamcrest#hamcrest-core;1.1[0m
 [0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
@@ -911,18 +853,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->compile][0m
@@ -1027,18 +961,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile-internal->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile-internal->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile-internal->compile][0m
@@ -1145,18 +1071,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->compile][0m
@@ -1259,18 +1177,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->compile][0m
@@ -1374,18 +1284,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime-internal->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime-internal->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime-internal->compile][0m
@@ -1493,18 +1395,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [compile->compile][0m
@@ -1607,18 +1501,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [runtime->compile][0m
@@ -1721,18 +1607,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test->compile][0m
@@ -1857,18 +1735,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [test-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [test-internal->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.projectlombok#lombok;0.11.4 [test-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->com.google.guava#guava;r05 [test-internal->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test-internal->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT->org.javatuples#javatuples;1.1 [test-internal->compile][0m
@@ -2039,15 +1909,9 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.1.1!commons-math3.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.1.1!commons-math3.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.1.1!commons-math3.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.projectlombok#lombok;0.11.4!lombok.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.projectlombok#lombok;0.11.4!lombok.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.projectlombok#lombok;0.11.4!lombok.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;r05!guava.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;r05!guava.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;r05!guava.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.javatuples#javatuples;1.1!javatuples.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.javatuples#javatuples;1.1!javatuples.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.javatuples#javatuples;1.1!javatuples.jar(src)[0m
@@ -2136,7 +2000,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 477ms :: artifacts dl 40ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 390ms :: artifacts dl 37ms[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT compile produced in /home/alex/Documents/projects/scala/betzilla/betfair/target/resolution-cache/reports/betzilla-betfair$sources_javadoc_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT runtime produced in /home/alex/Documents/projects/scala/betzilla/betfair/target/resolution-cache/reports/betzilla-betfair$sources_javadoc_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT test produced in /home/alex/Documents/projects/scala/betzilla/betfair/target/resolution-cache/reports/betzilla-betfair$sources_javadoc_2.10-test.xml[0m
@@ -2150,4 +2014,4 @@
 [0m[[0mdebug[0m] [0m	report for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT docs produced in /home/alex/Documents/projects/scala/betzilla/betfair/target/resolution-cache/reports/betzilla-betfair$sources_javadoc_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT pom produced in /home/alex/Documents/projects/scala/betzilla/betfair/target/resolution-cache/reports/betzilla-betfair$sources_javadoc_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betfair$sources_javadoc_2.10;1.0-SNAPSHOT scala-tool produced in /home/alex/Documents/projects/scala/betzilla/betfair/target/resolution-cache/reports/betzilla-betfair$sources_javadoc_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (477ms resolve - 40ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (390ms resolve - 37ms download)[0m

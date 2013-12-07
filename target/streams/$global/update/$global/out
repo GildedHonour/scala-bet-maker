@@ -1,4 +1,5 @@
 [0m[[0minfo[0m] [0mUpdating {file:/home/alex/Documents/projects/scala/betzilla/}betzilla...[0m
+[0m[[0mdebug[0m] [0mno default cache defined: set to /home/alex/.ivy2/cache[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: betzilla#betzilla_2.10;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +8,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for betzilla#betzilla_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47bf615e[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55ca2763[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -384,7 +385,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 543ms :: artifacts dl 20ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 945ms :: artifacts dl 22ms[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla_2.10;1.0-SNAPSHOT compile produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla_2.10;1.0-SNAPSHOT runtime produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla_2.10;1.0-SNAPSHOT test produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla_2.10-test.xml[0m
@@ -398,5 +399,5 @@
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla_2.10;1.0-SNAPSHOT docs produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla_2.10;1.0-SNAPSHOT pom produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla_2.10;1.0-SNAPSHOT scala-tool produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (543ms resolve - 20ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (945ms resolve - 22ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

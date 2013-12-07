@@ -9,7 +9,6 @@ class MarketGroupSupervisor(internalId: Int) extends Actor {
 
   }
 
-
   def receive = {
 
   }

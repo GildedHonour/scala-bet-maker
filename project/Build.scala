@@ -7,13 +7,14 @@ object BetZillaBuild extends Build {
   private def createProject(id: String) = Project(id, file(id), settings = defaultAdditionalSettings)
 
   lazy val root = Project("betzilla", file("."), settings = defaultSettings,
-    aggregate = Seq(betcore, test, betdaq, betfair, common)
+    aggregate = Seq(betcore, test, betdaq, betfair, common, mainApp)
   )
 
+  lazy val betcore = createProject("betcore")
   lazy val common = createProject("common") dependsOn betcore
   lazy val betdaq = createProject("betdaq") dependsOn common
-  lazy val betcore = createProject("betcore")
   lazy val test = createProject("test")
+  lazy val mainApp = createProject("app") dependsOn common
 
   val unmanagedListing = unmanagedJars in Compile :=  {
     (file(".").getAbsoluteFile ** "*.jar").classpath
@@ -40,35 +41,24 @@ object BetZillaBuild extends Build {
 }
 
 object Dependency {
-  object Version {
-    val akka = "2.2.1"
-    val scalaTest = "1.9.1"
-    val jUnit = "4.10"
-  }
 
-  val akkaActor = "com.typesafe.akka" %% "akka-actor" % Version.akka
-  val commonsMath3 = "org.apache.commons" % "commons-math3" % "3.1.1"
+  val akkaActor = "com.typesafe.akka" %% "akka-actor" % "2.2.1"
   val lombok = "org.projectlombok" % "lombok" % "0.11.4"
   val coollection = "com.wagnerandade" % "coollection" % "0.2.0" from
     "http://cloud.github.com/downloads/wagnerandrade/coollection/coollection-0.2.0.jar"
 
-  val guava = "com.google.guava" % "guava" % "r05"
   val javatuples = "org.javatuples" % "javatuples" % "1.1"
   val netdatabinder = "net.databinder.dispatch" %% "dispatch-core" % "0.11.0"
 
   val httpc = "org.apache.httpcomponents" % "httpclient" % "4.2.5"
   val scalaj = "org.scalaj" %% "scalaj-http" % "0.3.10" exclude("junit", "junit")
-  val scalaTest = "org.scalatest" %% "scalatest" % Version.scalaTest  % "test"
+  val scalaTest = "org.scalatest" %% "scalatest" % "1.9.1"  % "test"
   val jUnit = "com.novocode" % "junit-interface" % "0.10" % "test"
 
   val json4s = "org.json4s" %% "json4s-native" % "3.2.5"
-  //  val jacksonMapper = "org.codehaus.jackson" % "jackson-mapper-asl" % "1.9.13"
-  //  val json4sJackson = "org.json4s" %% "json4s-jackson" % "3.2.5"
-  //  val jacksonCore = "com.fasterxml.jackson.core" % "jackson-core" % "2.2.2"
-  //  val jacksonDataBind = "com.fasterxml.jackson.core" % "jackson-databind" % "2.2.2"
+  val tsConfig = "com.typesafe" % "config" % "1.0.2"
 
   val all = Seq(
-    akkaActor, scalaTest, jUnit, commonsMath3, lombok, coollection, guava,
-     javatuples, netdatabinder, json4s, httpc, scalaj
+    akkaActor, scalaTest, jUnit, lombok, coollection,javatuples, netdatabinder, json4s, httpc, scalaj, tsConfig
   )
 }

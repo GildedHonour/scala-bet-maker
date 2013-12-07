@@ -10,19 +10,21 @@ import scala.util._
 abstract class MarketGroupPricer[T <: SessionMonitor](marketGroupId: Int) extends Actor {
   import MarketGroupPricer._
 
+  protected def get: MarketGroup
+
+  protected def getSync(sessionId: String) = Future { blocking(get) }
+
   val sessionA = context actorOf Props[T]
 
   def receive = {
     case Get => sessionA ! SessionMonitor.Get
     case SessionMonitor.Result(sessionId) =>
       context stop sessionA
-      get(sessionId).onComplete {
+      getSync(sessionId).onComplete {
         case Success(mg: MarketGroup) => sender ! mg
         case Failure(e) => // todo - what to do with e: log, send back, retry, etc?
       }
   }
-
-  def get(sessionId: String): Future[MarketGroup]
 }
 
 object MarketGroupPricer {

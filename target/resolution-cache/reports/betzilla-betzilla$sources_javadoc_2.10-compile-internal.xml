@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20131205081246"/>
+		date="20131207115746"/>
 	<dependencies>
 		<module organisation="org.scalaz" name="scalaz-effect_2.10">
 			<revision name="7.0.2" status="release" pubdate="20130707203131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">

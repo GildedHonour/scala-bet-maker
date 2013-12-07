@@ -4,7 +4,7 @@
 		module="common$sources_javadoc_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20131205081247"
+		publication="20131207115747"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -40,17 +40,9 @@
 			<artifact name="config" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="config" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.commons" name="commons-math3" rev="3.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-math3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
 		<dependency org="org.projectlombok" name="lombok" rev="0.11.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="lombok" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="lombok" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="com.google.guava" name="guava" rev="r05" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="guava" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.javatuples" name="javatuples" rev="1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="javatuples" type="src" ext="jar" conf="sources" e:classifier="sources"/>

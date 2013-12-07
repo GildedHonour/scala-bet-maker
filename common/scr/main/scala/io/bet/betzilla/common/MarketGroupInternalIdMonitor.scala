@@ -1,22 +1,34 @@
 package io.bet.betzilla.common
 
 import akka.actor.Actor
+import scala.concurrent._
+import scala.util._
+import java.net.URL
+import org.json4s._
+import org.json4s.native.JsonMethods._
 
-class MarketGroupInternalIdMonitor extends Actor {
+abstract class MarketGroupInternalIdMonitor extends Actor {
   import MarketGroupInternalIdMonitor._
+
+  val url: String
+  val idLimit: Int
+
+  private def getInternalIdList = Future { blocking(getInternalIdListSync) }
+
+  private def getInternalIdListSync = {
+    val inputStreamRaw = new URL(url).openConnection.getInputStream
+    val inputStream = scala.io.Source.fromInputStream(inputStreamRaw)
+    val json = parse(inputStream getLines() mkString "\n")
+    val jsonIds = json \ "ids" \\ classOf[JInt]
+    jsonIds take idLimit map (_.toInt)
+  }
 
   def receive = {
     case Get =>
-      //get internal ids from bet.io
-      //return the result
-      val internlaIdList = getInternalIdList()
-      sender ! Result(internlaIdList) // tell or ask pattern?
-      context stop self
-  }
-
-  private def getInternalIdList() = {
-    //todo
-    List(1, 2, 3)
+      getInternalIdList onComplete {
+        case Success(idList) => sender ! Result(idList)
+        case Failure(e) => // todo
+      }
   }
 }
 

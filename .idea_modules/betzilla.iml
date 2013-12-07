@@ -41,6 +41,7 @@
     <orderEntry type="module" module-name="betdaq" exported="" />
     <orderEntry type="module" module-name="betfair" exported="" />
     <orderEntry type="module" module-name="common" exported="" />
+    <orderEntry type="module" module-name="app" exported="" />
   </component>
 </module>
 

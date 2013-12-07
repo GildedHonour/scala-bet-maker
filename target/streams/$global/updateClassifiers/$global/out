@@ -6,7 +6,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46a59486[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47f18acc[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -16,7 +16,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.5.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b2ae195[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e83adff[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.5.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.github.mpeltonen#sbt-idea;1.5.1[0m
 [0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.5.1 in sbt-chain[0m
@@ -26,7 +26,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ac9e94c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@573d51a3[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.0.1 in sbt-chain[0m
@@ -35,7 +35,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@485b8e62[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12053c22[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.2 in sbt-chain[0m
@@ -44,7 +44,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3473dd8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39ecbbe4[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.2[0m
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.2 in sbt-chain[0m
@@ -435,7 +435,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 547ms :: artifacts dl 56ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 547ms :: artifacts dl 63ms[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT compile produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla$sources_javadoc_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT runtime produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla$sources_javadoc_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT test produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla$sources_javadoc_2.10-test.xml[0m
@@ -449,4 +449,4 @@
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT docs produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla$sources_javadoc_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT pom produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla$sources_javadoc_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for betzilla#betzilla$sources_javadoc_2.10;1.0-SNAPSHOT scala-tool produced in /home/alex/Documents/projects/scala/betzilla/target/resolution-cache/reports/betzilla-betzilla$sources_javadoc_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (547ms resolve - 56ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (547ms resolve - 63ms download)[0m

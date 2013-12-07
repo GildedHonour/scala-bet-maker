@@ -1,0 +1,10 @@
+.DS_Store
+/.idea
+/.idea_modules
+/out
+/project
+/target
+/*.iml
+*/resolution-cache/*
+*/streams/*
+*/target/*
