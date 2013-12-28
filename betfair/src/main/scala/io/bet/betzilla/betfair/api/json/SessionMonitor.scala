@@ -9,6 +9,7 @@ class SessionMonitor extends io.bet.betzilla.common.SessionMonitor {
     val in = new BufferedReader(new InputStreamReader(new URL(Config.sessionUrl).openConnection.getInputStream))
     val result = in.readLine
     in.close()
+    println("---------api.json.SessionMonitor.getSessionIdSync result: " + result)
     result
   }
 }

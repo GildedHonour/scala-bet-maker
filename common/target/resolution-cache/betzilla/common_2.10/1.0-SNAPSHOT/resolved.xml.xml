@@ -4,7 +4,7 @@
 		module="common_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20131207104603"
+		publication="20131223131424"
 	>
 		<description>
 		common
@@ -50,6 +50,7 @@
 			<exclude org="junit" module="junit" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="com.typesafe" name="config" rev="1.0.2" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.5.1" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="2.4.0" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 	</dependencies>

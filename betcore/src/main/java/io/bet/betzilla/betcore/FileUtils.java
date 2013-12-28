@@ -9,22 +9,18 @@ public class FileUtils {
         char[] buffer = null;
 
         try {
-            BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader(file));
-
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
             buffer = new char[(int) file.length()];
-
             int i = 0;
             int c = bufferedReader.read();
-
             while (c != -1) {
                 buffer[i++] = (char) c;
                 c = bufferedReader.read();
             }
         } catch (FileNotFoundException e) {
-            // log.error(e.getMessage());
+
         } catch (IOException e) {
-            // log.error(e.getMessage());
+
         }
 
         return new String(buffer);
@@ -36,19 +32,16 @@ public class FileUtils {
             out.write(data);
             out.close();
         } catch (IOException e) {
-            // System.out.println("Exception ");       
+
         }
     }
 
     static public void writeText(String filename, String line, boolean append) {
         try {
-            // SimpleLogger.info(filename);
-            // SimpleLogger.info(line);
             PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename, append)));
             out.println(line);
             out.close();
         } catch (IOException e) {
-            //oh noes!
             e.printStackTrace();
         }
     }

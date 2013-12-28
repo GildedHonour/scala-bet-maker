@@ -1,37 +1,38 @@
 package io.bet.betzilla.betfair.api.json
 
-import scala.concurrent.Future
 import io.bet.betzilla.betcore.MarketGroup
 import org.json4s._
 import org.json4s.native.JsonMethods._
 import scalaj.http._
-import akka.actor.Props
+import io.bet.betzilla.common.MarketGroupPairId
 
-class MarketGroupPricer(marketGroupId: Int) extends
-  io.bet.betzilla.common.MarketGroupPricer[SessionMonitor](marketGroupId) {
+class MarketGroupPricer(mgIds: MarketGroupPairId) extends
+io.bet.betzilla.common.MarketGroupPricerWithSession[SessionMonitor](mgIds) {
 
-  private val sessionA = context actorOf Props[SessionMonitor]
-  private val connectionTimeout = 6000                          // todo
-  private val readTimeout = 15000                               // todo
-  private val url = Config.url // todo
+  private val connectionTimeout = 6000
+  // todo - Config
+  private val readTimeout = 15000
+  // todo - Config
+  private val url = Config.pricingUrl // todo - Config
+
   private val headers = {
     val contentTypeAndAccept = "application/json"
     Map(
-      "X-Application" -> ConfigCommon.applicationKey,
+      "X-Application" -> Config.applicationKey,
       "Content-Type" -> contentTypeAndAccept,
       "Accept" -> contentTypeAndAccept
     )
   }
 
-  private def buildHeaders = headers + ("X-Authentication" -> sessionId)
-
-  def get(sessionId: String): Future[MarketGroup] = Future {
+  def getSync(sessionId: String): MarketGroup = {
+    println("----------api.json.MarketGroupPricer.getSync, sessionId: " + sessionId)
+    val allHeaders = headers + ("X-Authentication" -> sessionId)
     val requestJson =
       s"""{
           "jsonrpc": "2.0",
           "method": "SportsAPING/v1.0/listMarketBook",
           "params": {
-            "marketIds":["1.$marketGroupId"],
+            "marketIds":["1.${mgIds.win}", "1.${mgIds.place}"],
             "priceProjection":{
               "priceData":["EX_BEST_OFFERS"],
               "exBestOfferOverRides":{"bestPricesDepth":2,"rollupModel":"STAKE","rollupLimit":20},
@@ -46,27 +47,17 @@ class MarketGroupPricer(marketGroupId: Int) extends
           "id": "1"
          }"""
 
+    println(s"----------api.json.MarketGroupPricer.getSync, sending request; " +
+      s"requestJson: $requestJson\nheaders: ${allHeaders.toList}")
     val resultPlain = Http.postData(url, requestJson)
-      .headers(buildHeaders.toList)
+      .headers(allHeaders.toList)
       .option(HttpOptions connTimeout connectionTimeout)
       .option(HttpOptions readTimeout readTimeout)
       .asString
 
-    try {
-      val marketsJson = (parse(resultPlain) \ "result" \\ classOf[JArray])(0).asInstanceOf[List[Map[String, String]]]
-
-
-      val mg = new MarketGroup
-
-      val result = marketsJson map { new Market(_) }
-      println("result ok: " + result)
-      result
-
-
-
-    } catch {
-      case e: Throwable =>
-        println("Error: " + e.getMessage)
-    }
+    println("----------api.json.MarketGroupPricer.getSync, sending request done: " + resultPlain)
+    val marketsJson = (parse(resultPlain) \ "result" \\ classOf[JArray])(0).asInstanceOf[List[Map[String, String]]]
+    println("----------api.json.MarketGroupPricer.getSync, result: " + marketsJson)
+    new MarketGroup //todo
   }
 }

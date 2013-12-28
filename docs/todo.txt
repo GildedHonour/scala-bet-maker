@@ -1,0 +1,5 @@
+1) messages-space-holder for bets
+2) add loging for debugging
+3) how to make marketgroupsupervisor bootstrap itself right away from bet.io/?market_id=123 ?
+
+4) make marketPair: (Int, Int) to be class marketPairId(val win: Int, val place: Int)

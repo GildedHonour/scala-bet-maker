@@ -1,10 +1,7 @@
 package io.bet.betzilla.betcore;
 
-// import lombok.Data;
-
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.Date;
 
 public class NonRunner {

@@ -1,36 +1,15 @@
-[0m[[0mdebug[0m] [0m[0m
-[0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/Config.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/ExchangeSupervisor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/MarketGroupInternalIdMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/SessionMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/SessionMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/MarketGroupPricer.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/Config.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/Scheduler.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/Config.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
-[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/Config.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/ExchangeSupervisor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/MarketGroupInternalIdMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/SessionMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/SessionMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/MarketGroupPricer.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/Config.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/Scheduler.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/Config.scala)[0m
-[0m[[0mdebug[0m] [0m[0m
-[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/Config.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/ExchangeSupervisor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/MarketGroupInternalIdMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/SessionMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/SessionMonitor.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/MarketGroupPricer.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/Config.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/Scheduler.scala, /home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/json/Config.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 9 sources: invalidated sources (9) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 9 Scala sources to /home/alex/Documents/projects/scala/betzilla/betfair/target/scala-2.10/classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 75b2142, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-encoding[0m
-[0m[[0mdebug[0m] [0m	UTF-8[0m
-[0m[[0mdebug[0m] [0m	-optimise[0m
-[0m[[0mdebug[0m] [0m	-deprecation[0m
-[0m[[0mdebug[0m] [0m	-unchecked[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/usr/local/java/jre1.7.0_25/lib/resources.jar:/usr/local/java/jre1.7.0_25/lib/rt.jar:/usr/local/java/jre1.7.0_25/lib/sunrsasign.jar:/usr/local/java/jre1.7.0_25/lib/jsse.jar:/usr/local/java/jre1.7.0_25/lib/jce.jar:/usr/local/java/jre1.7.0_25/lib/charsets.jar:/usr/local/java/jre1.7.0_25/lib/jfr.jar:/usr/local/java/jre1.7.0_25/classes:/home/alex/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/home/alex/Documents/projects/scala/betzilla/betfair/target/scala-2.10/classes:/home/alex/Documents/projects/scala/betzilla/common/target/scala-2.10/classes:/home/alex/Documents/projects/scala/betzilla/betcore/target/scala-2.10/classes:/home/alex/Documents/projects/scala/betzilla/./lib/betfair-ws-1.5-javadoc.jar:/home/alex/Documents/projects/scala/betzilla/./lib/betfair-ws-1.5-sources.jar:/home/alex/Documents/projects/scala/betzilla/./lib/betfair-ws-1.5.jar:/home/alex/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.1.jar:/home/alex/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar:/home/alex/.ivy2/cache/org.projectlombok/lombok/jars/lombok-0.11.4.jar:/home/alex/.ivy2/cache/com.wagnerandade/coollection/jars/coollection-0.2.0.jar:/home/alex/.ivy2/cache/org.javatuples/javatuples/jars/javatuples-1.1.jar:/home/alex/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.11.0.jar:/home/alex/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.16.jar:/home/alex/.ivy2/cache/io.netty/netty/bundles/netty-3.6.3.Final.jar:/home/alex/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar:/home/alex/.ivy2/cache/org.json4s/json4s-native_2.10/jars/json4s-native_2.10-3.2.5.jar:/home/alex/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.5.jar:/home/alex/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.5.jar:/home/alex/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.5.6.jar:/home/alex/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.9.0.jar:/home/alex/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.10.0.jar:/home/alex/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.0.jar:/home/alex/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar:/home/alex/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.2.5.jar:/home/alex/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.4.jar:/home/alex/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/alex/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar:/home/alex/.ivy2/cache/org.scalaj/scalaj-http_2.10/jars/scalaj-http_2.10-0.3.10.jar:/home/alex/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.5.1.jar:/home/alex/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.0.1.jar:/home/alex/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.4.0.jar:/home/alex/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.4.0.jar:/home/alex/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.0.2.jar:/home/alex/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.0.2.jar[0m
-[0m[[31merror[0m] [0m/home/alex/Documents/projects/scala/betzilla/betfair/src/main/scala/io/bet/betzilla/betfair/api/soap/SessionMonitor.scala:14: unbound placeholder parameter[0m
-[0m[[31merror[0m] [0m  protected val url: String = _[0m
-[0m[[31merror[0m] [0m                              ^[0m
-[0m[[31merror[0m] [0mone error found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-[0m[[31merror[0m] [0m(betfair/compile:[31mcompile[0m) Compilation failed[0m
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set()
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set()

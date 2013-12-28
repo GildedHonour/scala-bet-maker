@@ -11,11 +11,24 @@ class SessionMonitor extends io.bet.betzilla.common.SessionMonitor {
     loginReq setUsername Config.login
     loginReq setPassword Config.password
     loginReq setProductId Config.productId
+
+    println("------------api.soap.SessionMonitor.getSessionIdSync")
+    val res1 = new BFGlobalService_Service()
+    println("------------api.soap.SessionMonitor.getSessionIdSync: res1: " + res1)
+
+    val res2 = res1.getBFGlobalService login loginReq
+    println("------------api.soap.SessionMonitor.getSessionIdSync: res2: " + res2)
+
     val result = new BFGlobalService_Service().getBFGlobalService login loginReq
+    println("------------api.soap.SessionMonitor.getSessionIdSync: result: " + result)
 
     result.getErrorCode match {
-      case LoginErrorEnum.OK => result.getHeader.getSessionToken
-      case _ => // todo
+      case LoginErrorEnum.OK =>
+        println("------betfair.api.soap.SessionMonitor.sessionId: " + result.getHeader.getSessionToken)
+        result.getHeader.getSessionToken
+      case _ =>
+        println("------betfair.api.soap.SessionMonitor.sessionId error")
+        "" // todo
     }
   }
 }
